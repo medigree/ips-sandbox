@@ -1,0 +1,1994 @@
+
+{
+  "resourceType": "Bundle",
+  "language": "en",
+  "type": "transaction",
+  "timestamp": "2024-06-04T18:22:36.342+10:00",
+  "entry": [
+      {
+          "fullUrl": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a",
+          "resource": {
+              "resourceType": "Patient",
+              "id": "6658a702-0d9d-4f1d-db59-b8310000000a",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Fathimah Binti Ali </div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>620315102633</td></tr><tr><td>Date of birth</td><td><span>15 March 1962</span></td></tr></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "use": "official",
+                      "value": "620315102633"
+                  }
+              ],
+              "active": true,
+              "name": [
+                  {
+                      "use": "official",
+                      "given": [
+                          "Fathimah Binti Ali"
+                      ]
+                  }
+              ],
+              "gender": "female",
+              "birthDate": "1962-03-15"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Patient/6658a702-0d9d-4f1d-db59-b8310000000a"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000",
+          "resource": {
+              "resourceType": "Organization",
+              "id": "60d2eba7-bd9d-a220-4b8a-8e2800000000",
+              "active": true,
+              "type": [
+                  {
+                      "coding": [
+                          {
+                              "display": "government"
+                          }
+                      ]
+                  }
+              ],
+              "name": "HOSPITAL TIARA",
+              "telecom": [
+                  {
+                      "system": "phone",
+                      "value": "+6089882076"
+                  },
+                  {
+                      "system": "email",
+                      "value": "hospital1@uat.com"
+                  }
+              ],
+              "address": [
+                  {
+                      "use": "work",
+                      "text": "Old Record Pejabat Kesihatan Baling (Luar) - 81000",
+                      "district": "PETALING",
+                      "state": "SELANGOR",
+                      "postalCode": "47890"
+                  }
+              ]
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Organization/60d2eba7-bd9d-a220-4b8a-8e2800000000"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000",
+          "resource": {
+              "resourceType": "Practitioner",
+              "id": "60100e31-8132-4077-2090-ee2b00000000",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>60100e31-8132-4077-2090-ee2b00000000</td></tr><tr><td>Identifier:</td><td><div>MMC11</div></td></tr><tr><td>Active:</td><td>true</td></tr><tr><td>Name:</td><td></td></tr><tr><td>Telecom:</td><td> PHONE: 12345678 , EMAIL: <a href=\"mailto:hospital@uat.com\">hospital@uat.com</a></td></tr><tr><td>Gender:</td><td>FEMALE</td></tr></tbody></table><br/><h2>Qualification</h2><table class=\"subPropertyTable\"><tbody><tr><th>-</th><th>Identifier</th><th>Code</th><th>Period</th><th>Issuer</th></tr><tr><td>1</td><td> MBBS </td><td> MBBS </td><td></td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/null\"></a></td></tr><tr><td>2</td><td> FRCS </td><td> FRCS </td><td></td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/null\"></a></td></tr><tr><td>3</td><td> PCET </td><td> PCET </td><td></td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/null\"></a></td></tr></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "type": {
+                          "coding": [
+                              {
+                                  "display": "MMC"
+                              }
+                          ]
+                      },
+                      "value": "MMC11"
+                  }
+              ],
+              "active": true,
+              "name": [
+                  {
+                      "use": "official"
+                  }
+              ],
+              "telecom": [
+                  {
+                      "system": "phone",
+                      "value": "12345678"
+                  },
+                  {
+                      "system": "email",
+                      "value": "hospital@uat.com"
+                  }
+              ],
+              "gender": "female",
+              "qualification": [
+                  {
+                      "identifier": [
+                          {
+                              "value": "MBBS"
+                          }
+                      ],
+                      "code": {
+                          "coding": [
+                              {
+                                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                                  "code": "MBBS",
+                                  "display": "MBBS"
+                              }
+                          ]
+                      }
+                  },
+                  {
+                      "identifier": [
+                          {
+                              "value": "FRCS"
+                          }
+                      ],
+                      "code": {
+                          "coding": [
+                              {
+                                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                                  "code": "FRCS",
+                                  "display": "FRCS"
+                              }
+                          ]
+                      }
+                  },
+                  {
+                      "identifier": [
+                          {
+                              "value": "PCET"
+                          }
+                      ],
+                      "code": {
+                          "coding": [
+                              {
+                                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                                  "code": "PCET",
+                                  "display": "PCET"
+                              }
+                          ]
+                      }
+                  }
+              ]
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Practitioner/60100e31-8132-4077-2090-ee2b00000000"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:913795b2-b4f2-4702-9fa8-521e7080d667",
+          "resource": {
+              "resourceType": "Procedure",
+              "id": "913795b2-b4f2-4702-9fa8-521e7080d667",
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "completed",
+              "category": {
+                  "coding": [
+                      {
+                          "system": "http://snomed.info/sct",
+                          "code": "472336344",
+                          "display": "Surgical procedure"
+                      }
+                  ]
+              },
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://snomed.info/sct",
+                          "code": "525331921",
+                          "display": "Bipolar Hemiarthroplasty left hip done in 2018"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "performedDateTime": "2024-05-30T16:29:52+10:00",
+              "recorder": {
+                  "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+              },
+              "performer": [
+                  {
+                      "actor": {
+                          "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                      },
+                      "onBehalfOf": {
+                          "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                      }
+                  }
+              ]
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Procedure/913795b2-b4f2-4702-9fa8-521e7080d667"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:7cf27aae-8ea8-4f44-8600-b41455497d03",
+          "resource": {
+              "resourceType": "DiagnosticReport",
+              "id": "7cf27aae-8ea8-4f44-8600-b41455497d03",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Osmotic fragility full hemolysis of Red Blood Cells </div><table class=\"hapiPropertyTable\"><tbody><tr><td>Status</td><td>FINAL</td></tr><tr><td>Issued</td><td> 30 May 2024 16:29:52</td></tr></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                              "code": "LAB",
+                              "display": "Laboratory"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "50795-4",
+                          "display": "Osmotic fragility full hemolysis of Red Blood Cells"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "issued": "2024-05-30T16:29:52.000+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  }
+              ]
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "DiagnosticReport/7cf27aae-8ea8-4f44-8600-b41455497d03"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:d8ab4cf5-8338-4182-a25e-d12e9f497a95",
+          "resource": {
+              "resourceType": "DiagnosticReport",
+              "id": "d8ab4cf5-8338-4182-a25e-d12e9f497a95",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Renal Profile </div><table class=\"hapiPropertyTable\"><tbody><tr><td>Status</td><td>FINAL</td></tr><tr><td>Issued</td><td> 30 May 2024 16:29:52</td></tr></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                              "code": "LAB",
+                              "display": "Laboratory"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "display": "Renal Profile"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "issued": "2024-05-30T16:29:52.000+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  }
+              ]
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "DiagnosticReport/d8ab4cf5-8338-4182-a25e-d12e9f497a95"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:3841018b-eb91-44d5-a9ff-e2c7777b4220",
+          "resource": {
+              "resourceType": "DiagnosticReport",
+              "id": "3841018b-eb91-44d5-a9ff-e2c7777b4220",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Type of EKG leads </div><table class=\"hapiPropertyTable\"><tbody><tr><td>Status</td><td>FINAL</td></tr><tr><td>Issued</td><td> 30 May 2024 16:29:52</td></tr><tr><td>Conclusion</td><td>1.Mild ST elevation is noticed; 2.Left Ventricular Hypertrophy changes noticed in ECG</td></tr></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                              "code": "LAB",
+                              "display": "Laboratory"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "8605-8",
+                          "display": "Type of EKG leads"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "issued": "2024-05-30T16:29:52.000+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  }
+              ],
+              "conclusion": "1.Mild ST elevation is noticed; 2.Left Ventricular Hypertrophy changes noticed in ECG"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "DiagnosticReport/3841018b-eb91-44d5-a9ff-e2c7777b4220"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:aefecfe9-8d25-4026-9301-3be4397126be",
+          "resource": {
+              "resourceType": "DiagnosticReport",
+              "id": "aefecfe9-8d25-4026-9301-3be4397126be",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> I am sensitive to the feelings of others [PhenX] </div><table class=\"hapiPropertyTable\"><tbody><tr><td>Status</td><td>FINAL</td></tr><tr><td>Issued</td><td> 30 May 2024 16:29:52</td></tr></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                              "code": "LAB",
+                              "display": "Laboratory"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "65292-5",
+                          "display": "I am sensitive to the feelings of others [PhenX]"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "issued": "2024-05-30T16:29:52.000+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  }
+              ]
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "DiagnosticReport/aefecfe9-8d25-4026-9301-3be4397126be"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:352d7d8c-cd9c-435a-806e-341bf4bd3ef2",
+          "resource": {
+              "resourceType": "ClinicalImpression",
+              "id": "352d7d8c-cd9c-435a-806e-341bf4bd3ef2",
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "completed",
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "display": "Systemic Review"
+                      }
+                  ]
+              },
+              "description": "Systemic Review",
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "date": "2024-05-30T16:29:52+10:00",
+              "assessor": {
+                  "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+              },
+              "summary": "Functional Class 1: Patient able to be independent; Moving / walking without assistance,Cardiorespiratory - Ankle Swelling,Locomotor - Joint Pain"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "ClinicalImpression/352d7d8c-cd9c-435a-806e-341bf4bd3ef2"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:960e0438-339b-46bb-bb20-1aa08184e1ac",
+          "resource": {
+              "resourceType": "ClinicalImpression",
+              "id": "960e0438-339b-46bb-bb20-1aa08184e1ac",
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "completed",
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "89422-0",
+                          "display": "Timed Up and Go test and physical findings of gait panel CDC"
+                      }
+                  ]
+              },
+              "description": "Timed Up and Go (TUG)",
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "date": "2024-05-30T16:29:52+10:00",
+              "assessor": {
+                  "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+              },
+              "summary": "5 - PASSED"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "ClinicalImpression/960e0438-339b-46bb-bb20-1aa08184e1ac"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:b8caf015-4ed1-4faf-88d2-90207f5b7667",
+          "resource": {
+              "resourceType": "ClinicalImpression",
+              "id": "b8caf015-4ed1-4faf-88d2-90207f5b7667",
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "completed",
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "display": "30-second Sit to Stand Assessment (30STS)"
+                      }
+                  ]
+              },
+              "description": "30-second Sit to Stand Assessment (30STS)",
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "date": "2024-05-30T16:29:52+10:00",
+              "assessor": {
+                  "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+              },
+              "summary": "13 - PASSED"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "ClinicalImpression/b8caf015-4ed1-4faf-88d2-90207f5b7667"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:6e1526c9-c9a7-422e-8b8d-0417f552cf55",
+          "resource": {
+              "resourceType": "Condition",
+              "id": "6e1526c9-c9a7-422e-8b8d-0417f552cf55",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>6e1526c9-c9a7-422e-8b8d-0417f552cf55</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Clinical Status:</td><td> Active </td></tr><tr><td>Verification Status:</td><td> Confirmed </td></tr><tr><td>Category:</td><td> Problem </td></tr><tr><td>Severity:</td><td> Moderate </td></tr><tr><td>Code:</td><td> Pulmonary hypertension [Class] </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Recorded Date:</td><td>30/05/2024</td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "clinicalStatus": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                          "code": "active",
+                          "display": "Active"
+                      }
+                  ]
+              },
+              "verificationStatus": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                          "code": "confirmed",
+                          "display": "Confirmed"
+                      }
+                  ]
+              },
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://loinc.org",
+                              "code": "75326-9",
+                              "display": "Problem"
+                          }
+                      ]
+                  }
+              ],
+              "severity": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "LA6751-7",
+                          "display": "Moderate"
+                      }
+                  ]
+              },
+              "code": {
+                  "coding": [
+                      {
+                          
+                          "code": "95932-0",
+                          "display": "Pulmonary hypertension [Class]"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "recordedDate": "2024-05-30T16:29:52+10:00"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Condition/6e1526c9-c9a7-422e-8b8d-0417f552cf55"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:a6f2c93f-06c9-429a-b0b8-5ca4e9147476",
+          "resource": {
+              "resourceType": "Condition",
+              "id": "a6f2c93f-06c9-429a-b0b8-5ca4e9147476",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>a6f2c93f-06c9-429a-b0b8-5ca4e9147476</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Clinical Status:</td><td> Active </td></tr><tr><td>Verification Status:</td><td> Confirmed </td></tr><tr><td>Category:</td><td> Problem </td></tr><tr><td>Severity:</td><td> Moderate </td></tr><tr><td>Code:</td><td> APOB gene p.Arg3500Gln and p.Arg3500Trp [Identifier] in Blood or Tissue by Molecular genetics method Nominal </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Recorded Date:</td><td>30/05/2024</td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "clinicalStatus": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                          "code": "active",
+                          "display": "Active"
+                      }
+                  ]
+              },
+              "verificationStatus": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                          "code": "confirmed",
+                          "display": "Confirmed"
+                      }
+                  ]
+              },
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://loinc.org",
+                              "code": "75326-9",
+                              "display": "Problem"
+                          }
+                      ]
+                  }
+              ],
+              "severity": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "LA6751-7",
+                          "display": "Moderate"
+                      }
+                  ]
+              },
+              "code": {
+                  "coding": [
+                      {
+                          
+                          "code": "73748-6",
+                          "display": "APOB gene p.Arg3500Gln and p.Arg3500Trp [Identifier] in Blood or Tissue by Molecular genetics method Nominal"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "recordedDate": "2024-05-30T16:29:52+10:00"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Condition/a6f2c93f-06c9-429a-b0b8-5ca4e9147476"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:16200fcd-b676-4781-abad-fc1999c10c5b",
+          "resource": {
+              "resourceType": "Condition",
+              "id": "16200fcd-b676-4781-abad-fc1999c10c5b",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>16200fcd-b676-4781-abad-fc1999c10c5b</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Clinical Status:</td><td> Active </td></tr><tr><td>Verification Status:</td><td> Confirmed </td></tr><tr><td>Category:</td><td> Problem </td></tr><tr><td>Severity:</td><td> Moderate </td></tr><tr><td>Code:</td><td> PhenX - arthritis - osteoarthritis protocol 170201 </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Recorded Date:</td><td>30/05/2024</td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "clinicalStatus": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                          "code": "active",
+                          "display": "Active"
+                      }
+                  ]
+              },
+              "verificationStatus": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                          "code": "confirmed",
+                          "display": "Confirmed"
+                      }
+                  ]
+              },
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://loinc.org",
+                              "code": "75326-9",
+                              "display": "Problem"
+                          }
+                      ]
+                  }
+              ],
+              "severity": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "LA6751-7",
+                          "display": "Moderate"
+                      }
+                  ]
+              },
+              "code": {
+                  "coding": [
+                      {
+                          
+                          "code": "62900-6",
+                          "display": "PhenX - arthritis - osteoarthritis protocol 170201"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "recordedDate": "2024-05-30T16:29:52+10:00"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Condition/16200fcd-b676-4781-abad-fc1999c10c5b"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:94620ee0-b2cf-4f24-ab4e-c38136676afe",
+          "resource": {
+              "resourceType": "Condition",
+              "id": "94620ee0-b2cf-4f24-ab4e-c38136676afe",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>94620ee0-b2cf-4f24-ab4e-c38136676afe</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Clinical Status:</td><td> Active </td></tr><tr><td>Verification Status:</td><td> Confirmed </td></tr><tr><td>Category:</td><td> Problem </td></tr><tr><td>Severity:</td><td> Moderate </td></tr><tr><td>Code:</td><td> Essential hypertension, unspecified </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Recorded Date:</td><td>30/05/2024</td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "clinicalStatus": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                          "code": "active",
+                          "display": "Active"
+                      }
+                  ]
+              },
+              "verificationStatus": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                          "code": "confirmed",
+                          "display": "Confirmed"
+                      }
+                  ]
+              },
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://loinc.org",
+                              "code": "75326-9",
+                              "display": "Problem"
+                          }
+                      ]
+                  }
+              ],
+              "severity": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "LA6751-7",
+                          "display": "Moderate"
+                      }
+                  ]
+              },
+              "code": {
+                  "coding": [
+                      {
+                          
+                          "display": "Essential hypertension, unspecified"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "recordedDate": "2024-05-30T16:29:52+10:00"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Condition/94620ee0-b2cf-4f24-ab4e-c38136676afe"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:b2849889-306a-46f5-8995-5eecd7302c1a",
+          "resource": {
+              "resourceType": "Condition",
+              "id": "b2849889-306a-46f5-8995-5eecd7302c1a",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>b2849889-306a-46f5-8995-5eecd7302c1a</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Clinical Status:</td><td> Active </td></tr><tr><td>Verification Status:</td><td> Confirmed </td></tr><tr><td>Category:</td><td> Problem </td></tr><tr><td>Severity:</td><td> Moderate </td></tr><tr><td>Code:</td><td> Unspecified disorders of lipoprotein metabolism or lipidaemias </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Recorded Date:</td><td>30/05/2024</td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "clinicalStatus": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                          "code": "active",
+                          "display": "Active"
+                      }
+                  ]
+              },
+              "verificationStatus": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+                          "code": "confirmed",
+                          "display": "Confirmed"
+                      }
+                  ]
+              },
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://loinc.org",
+                              "code": "75326-9",
+                              "display": "Problem"
+                          }
+                      ]
+                  }
+              ],
+              "severity": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "LA6751-7",
+                          "display": "Moderate"
+                      }
+                  ]
+              },
+              "code": {
+                  "coding": [
+                      {
+                          
+                          "display": "Unspecified disorders of lipoprotein metabolism or lipidaemias"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "recordedDate": "2024-05-30T16:29:52+10:00"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Condition/b2849889-306a-46f5-8995-5eecd7302c1a"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:47c8cf1e-f55d-4d0c-beae-ee7e54fe773d",
+          "resource": {
+              "resourceType": "MedicationStatement",
+              "id": "47c8cf1e-f55d-4d0c-beae-ee7e54fe773d",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>47c8cf1e-f55d-4d0c-beae-ee7e54fe773d</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>ACTIVE</td></tr><tr><td>Medication:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:83aae8d3-8e33-4691-85d4-58bf6b1d1edf\">Amlodipine 5mg Tab</a></td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "active",
+              "medicationReference": {
+                  "reference": "urn:uuid:83aae8d3-8e33-4691-85d4-58bf6b1d1edf",
+                  "display": "Amlodipine 5mg Tab"
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "dosage": [
+                  {
+                      "timing": {
+                          "repeat": {
+                              "count": 1,
+                              "periodUnit": "d"
+                          }
+                      },
+                      "route": {
+                          "coding": [
+                              {
+                                  
+                                  "code": "71574257",
+                                  "display": "Oral"
+                              }
+                          ]
+                      }
+                  }
+              ]
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "MedicationStatement/47c8cf1e-f55d-4d0c-beae-ee7e54fe773d"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:2f95ccc9-d4f8-419f-ab13-30f50dfd5150",
+          "resource": {
+              "resourceType": "MedicationStatement",
+              "id": "2f95ccc9-d4f8-419f-ab13-30f50dfd5150",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>2f95ccc9-d4f8-419f-ab13-30f50dfd5150</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>ACTIVE</td></tr><tr><td>Medication:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:865d709c-dc28-4c09-bcb7-3fc08cd5a165\">Telmisartan 40mg Tab</a></td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "active",
+              "medicationReference": {
+                  "reference": "urn:uuid:865d709c-dc28-4c09-bcb7-3fc08cd5a165",
+                  "display": "Telmisartan 40mg Tab"
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "dosage": [
+                  {
+                      "timing": {
+                          "repeat": {
+                              "count": 1,
+                              "periodUnit": "d"
+                          }
+                      },
+                      "route": {
+                          "coding": [
+                              {
+                                  
+                                  "code": "54532257",
+                                  "display": "Oral"
+                              }
+                          ]
+                      }
+                  }
+              ]
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "MedicationStatement/2f95ccc9-d4f8-419f-ab13-30f50dfd5150"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:1042d0b8-71ff-4538-b587-4345a2afe436",
+          "resource": {
+              "resourceType": "MedicationStatement",
+              "id": "1042d0b8-71ff-4538-b587-4345a2afe436",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>1042d0b8-71ff-4538-b587-4345a2afe436</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>ACTIVE</td></tr><tr><td>Medication:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:317da6b5-daf5-4bd2-aee3-9c6f673ca28d\">Atorvastatin 20mg Tab</a></td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "active",
+              "medicationReference": {
+                  "reference": "urn:uuid:317da6b5-daf5-4bd2-aee3-9c6f673ca28d",
+                  "display": "Atorvastatin 20mg Tab"
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "dosage": [
+                  {
+                      "timing": {
+                          "repeat": {
+                              "count": 1,
+                              "periodUnit": "d"
+                          }
+                      },
+                      "route": {
+                          "coding": [
+                              {
+                                  
+                                  "code": "57747101",
+                                  "display": "Oral"
+                              }
+                          ]
+                      }
+                  }
+              ]
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "MedicationStatement/1042d0b8-71ff-4538-b587-4345a2afe436"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:83aae8d3-8e33-4691-85d4-58bf6b1d1edf",
+          "resource": {
+              "resourceType": "Medication",
+              "id": "83aae8d3-8e33-4691-85d4-58bf6b1d1edf",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Amlodipine 5mg Tab </div></div>"
+              },
+              "code": {
+                  "coding": [
+                      {
+                          
+                          "code": "21453295",
+                          "display": "Amlodipine 5mg Tab"
+                      }
+                  ]
+              },
+              "status": "active"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Medication/83aae8d3-8e33-4691-85d4-58bf6b1d1edf"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:865d709c-dc28-4c09-bcb7-3fc08cd5a165",
+          "resource": {
+              "resourceType": "Medication",
+              "id": "865d709c-dc28-4c09-bcb7-3fc08cd5a165",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Telmisartan 40mg Tab </div></div>"
+              },
+              "code": {
+                  "coding": [
+                      {
+                          
+                          "code": "59407423",
+                          "display": "Telmisartan 40mg Tab"
+                      }
+                  ]
+              },
+              "status": "active"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Medication/865d709c-dc28-4c09-bcb7-3fc08cd5a165"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:317da6b5-daf5-4bd2-aee3-9c6f673ca28d",
+          "resource": {
+              "resourceType": "Medication",
+              "id": "317da6b5-daf5-4bd2-aee3-9c6f673ca28d",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Atorvastatin 20mg Tab </div></div>"
+              },
+              "code": {
+                  "coding": [
+                      {
+                          
+                          "code": "86562009",
+                          "display": "Atorvastatin 20mg Tab"
+                      }
+                  ]
+              },
+              "status": "active"
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Medication/317da6b5-daf5-4bd2-aee3-9c6f673ca28d"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:8be554c5-4e22-44a3-950a-0dc58eed09d9",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "8be554c5-4e22-44a3-950a-0dc58eed09d9",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>8be554c5-4e22-44a3-950a-0dc58eed09d9</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Body height </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>174.0 cm </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "8302-2",
+                          "display": "Body height"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 174.0,
+                  "unit": "cm",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "cm"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/8be554c5-4e22-44a3-950a-0dc58eed09d9"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:82af36d0-159a-4e66-ba53-889b376859af",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "82af36d0-159a-4e66-ba53-889b376859af",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>82af36d0-159a-4e66-ba53-889b376859af</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Body weight </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>77.0 kg </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "29463-7",
+                          "display": "Body weight"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 77.0,
+                  "unit": "kg",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "kg"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/82af36d0-159a-4e66-ba53-889b376859af"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:8375237b-ac62-488f-9a9a-4c5bffa559cb",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "8375237b-ac62-488f-9a9a-4c5bffa559cb",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>8375237b-ac62-488f-9a9a-4c5bffa559cb</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Body mass index (BMI) [Ratio] </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>25.4 kg/m2 </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "39156-5",
+                          "display": "Body mass index (BMI) [Ratio]"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 25.4,
+                  "unit": "kg/m2",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "kg/m2"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/8375237b-ac62-488f-9a9a-4c5bffa559cb"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:f61169b1-e3a7-4fd9-ac08-6e4058c8fe96",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "f61169b1-e3a7-4fd9-ac08-6e4058c8fe96",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>f61169b1-e3a7-4fd9-ac08-6e4058c8fe96</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Systolic blood pressure </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>135.0 mmHG </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "8480-6",
+                          "display": "Systolic blood pressure"
+                      },
+                      {
+                          "system": "http://loinc.org",
+                          "code": "85354-9",
+                          "display": "Blood pressure panel with all children optional"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 135.0,
+                  "unit": "mmHG",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mm[Hg]"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/f61169b1-e3a7-4fd9-ac08-6e4058c8fe96"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:dce82953-171d-4c47-93bc-39b3b1c99501",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "dce82953-171d-4c47-93bc-39b3b1c99501",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>dce82953-171d-4c47-93bc-39b3b1c99501</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Diastolic blood pressure </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>92.0 mmHG </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "8462-4",
+                          "display": "Diastolic blood pressure"
+                      },
+                      {
+                          "system": "http://loinc.org",
+                          "code": "85354-9",
+                          "display": "Blood pressure panel with all children optional"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 92.0,
+                  "unit": "mmHG",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mm[Hg]"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/dce82953-171d-4c47-93bc-39b3b1c99501"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:07b7627d-484f-4b04-aa39-9f9d07da99ba",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "07b7627d-484f-4b04-aa39-9f9d07da99ba",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>07b7627d-484f-4b04-aa39-9f9d07da99ba</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Heart rate </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>88.0 bpm </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "8867-4",
+                          "display": "Heart rate"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 88.0,
+                  "unit": "bpm",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "/min"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/07b7627d-484f-4b04-aa39-9f9d07da99ba"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:ef91ed57-b967-445b-ae5d-a7047820f954",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "ef91ed57-b967-445b-ae5d-a7047820f954",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>ef91ed57-b967-445b-ae5d-a7047820f954</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Respiratory rate </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>17.0 breaths/min </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "9279-1",
+                          "display": "Respiratory rate"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 17.0,
+                  "unit": "breaths/min",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "/min"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/ef91ed57-b967-445b-ae5d-a7047820f954"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:e3e9452d-cff4-484d-ada6-e816531bbdd1",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "e3e9452d-cff4-484d-ada6-e816531bbdd1",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>e3e9452d-cff4-484d-ada6-e816531bbdd1</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Body temperature </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>37.1 °C </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "8310-5",
+                          "display": "Body temperature"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 37.1,
+                  "unit": "°C",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "Cel"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/e3e9452d-cff4-484d-ada6-e816531bbdd1"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:73955147-fdb3-44c0-b798-e515922618c5",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "73955147-fdb3-44c0-b798-e515922618c5",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>73955147-fdb3-44c0-b798-e515922618c5</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Oxygen saturation in Arterial blood </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>98.0 % </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "2708-6",
+                          "display": "Oxygen saturation in Arterial blood"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 98.0,
+                  "unit": "%",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "%"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/73955147-fdb3-44c0-b798-e515922618c5"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:7ec95c67-bf6f-4c76-8fef-1e6b4e06b0e6",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "7ec95c67-bf6f-4c76-8fef-1e6b4e06b0e6",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>7ec95c67-bf6f-4c76-8fef-1e6b4e06b0e6</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Pain severity - 0-10 verbal numeric rating [Score] - Reported </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>0.0 </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "72514-3",
+                          "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 0.0,
+                  "system": "http://unitsofmeasure.org"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/7ec95c67-bf6f-4c76-8fef-1e6b4e06b0e6"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:0b041184-2df6-446e-8803-c9b0b45f378d",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "0b041184-2df6-446e-8803-c9b0b45f378d",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>0b041184-2df6-446e-8803-c9b0b45f378d</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Glucose [Mass/volume] in Blood </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>5.7 mmol/L </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "2339-0",
+                          "display": "Glucose [Mass/volume] in Blood"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 5.7,
+                  "unit": "mmol/L",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "mg/dL"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/0b041184-2df6-446e-8803-c9b0b45f378d"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:f6a42cb0-7c6c-4944-9b32-7764eb5974e0",
+          "resource": {
+              "resourceType": "Observation",
+              "id": "f6a42cb0-7c6c-4944-9b32-7764eb5974e0",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>f6a42cb0-7c6c-4944-9b32-7764eb5974e0</td></tr><tr><td>Identifier:</td><td><div>6658a702-0d9d-4f1d-db59-b8310000000a</div></td></tr><tr><td>Status:</td><td>FINAL</td></tr><tr><td>Category:</td><td> Vital Signs </td></tr><tr><td>Code:</td><td> Hemoglobin F [Mass/volume] in Blood </td></tr><tr><td>Subject:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a\">urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a</a></td></tr><tr><td>Effective:</td><td> 30 May 2024 16:29:52 </td></tr><tr><td>Performer:</td><td><a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000\">urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000</a> , <a href=\"http://localhost:8080/openmrs/ws/fhir2/R4/urn:uuid:60100e31-8132-4077-2090-ee2b00000000\">urn:uuid:60100e31-8132-4077-2090-ee2b00000000</a></td></tr><tr><td>Value:</td><td>10.9 g/dL </td></tr></tbody></table><br/><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+              },
+              "identifier": [
+                  {
+                      "system": "urn:oid:2.16.724.4.8.10.200.10",
+                      "value": "6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              ],
+              "status": "final",
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                              "code": "vital-signs",
+                              "display": "Vital Signs"
+                          }
+                      ]
+                  }
+              ],
+              "code": {
+                  "coding": [
+                      {
+                          "system": "http://loinc.org",
+                          "code": "53857-9",
+                          "display": "Hemoglobin F [Mass/volume] in Blood"
+                      }
+                  ]
+              },
+              "subject": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "effectiveDateTime": "2024-05-30T16:29:52+10:00",
+              "performer": [
+                  {
+                      "reference": "urn:uuid:60d2eba7-bd9d-a220-4b8a-8e2800000000"
+                  },
+                  {
+                      "reference": "urn:uuid:60100e31-8132-4077-2090-ee2b00000000"
+                  }
+              ],
+              "valueQuantity": {
+                  "value": 10.9,
+                  "unit": "g/dL",
+                  "system": "http://unitsofmeasure.org",
+                  "code": "g/dL"
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Observation/f6a42cb0-7c6c-4944-9b32-7764eb5974e0"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:34730062-42cd-4631-98e1-414d5848ae21",
+          "resource": {
+              "resourceType": "Immunization",
+              "id": "34730062-42cd-4631-98e1-414d5848ae21",
+              "text": {
+                  "status": "generated",
+                  "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Id:</td><td>34730062-42cd-4631-98e1-414d5848ae21</td></tr><tr><td>Status:</td><td>COMPLETED</td></tr><tr><td>Code:</td><td> Nimenrix Powder and Solvent for Solution for Injection </td></tr><tr><td>Recorded:</td><td>Thu May 30 17:23:24 AEST 2024</td></tr><tr><td>Lot Number:</td><td>FY8442</td></tr><tr><td>Expiration Date:</td><td>Mon Jun 30 00:00:00 AEST 2025</td></tr></tbody></table></div>"
+              },
+              "status": "completed",
+              "vaccineCode": {
+                  "coding": [
+                      {
+                          
+                          "code": "XM2WV4",
+                          "display": "Nimenrix Powder and Solvent for Solution for Injection"
+                      }
+                  ]
+              },
+              "patient": {
+                  "reference": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+              },
+              "encounter": {
+                  "display": "urn:uuid:6658b5ddda59605fc25dc7a5"
+              },
+              "occurrenceDateTime": "2024-04-20T13:22:00+10:00",
+              "recorded": "2024-05-30T17:23:24+10:00",
+              "primarySource": false,
+              "location": {
+                  "display": "urn:uuid:60d2eba7bd9da2204b8a8e28"
+              },
+              "manufacturer": {
+                  "display": "Pfizer Manufacturing Belgium NV RIJKSWEG 12, 2870 PUURS, BELGIUM"
+              },
+              "lotNumber": "FY8442",
+              "expirationDate": "2025-06-30",
+              "performer": [
+                  {
+                      "actor": {
+                          "display": "urn:uuid:60100e31813240772090ee2b"
+                      }
+                  }
+              ],
+              "isSubpotent": false
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Immunization/34730062-42cd-4631-98e1-414d5848ae21"
+          }
+      },
+      {
+          "fullUrl": "urn:uuid:804add98-c0fb-4551-b903-2ba720a6934b",
+          "resource": {
+              "resourceType": "Consent",
+              "id": "804add98-c0fb-4551-b903-2ba720a6934b",
+              "meta": {
+                  "profile": [
+                      "https://profiles.ihe.net/ITI/PCF/StructureDefinition/IHE.PCF.consentBasic"
+                  ],
+                  "security": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+                          "code": "HTEST"
+                      }
+                  ]
+              },
+              "status": "active",
+              "scope": {
+                  "coding": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+                          "code": "patient-privacy"
+                      }
+                  ]
+              },
+              "category": [
+                  {
+                      "coding": [
+                          {
+                              "system": "http://loinc.org",
+                              "code": "59284-0",
+                              "display": "Consent Document"
+                          }
+                      ]
+                  }
+              ],
+              "patient": {
+                  "type": "Patient",
+                  "identifier": {
+                      "value": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+                  }
+              },
+              "dateTime": "2024-06-04T18:22:48+10:00",
+              "performer": [
+                  {
+                      "type": "Patient",
+                      "identifier": {
+                          "value": "urn:uuid:6658a702-0d9d-4f1d-db59-b8310000000a"
+                      }
+                  }
+              ],
+              "organization": [
+                  {
+                      "type": "Organization",
+                      "identifier": {
+                          "value": "urn:uuid:"
+                      }
+                  }
+              ],
+              "sourceReference": {
+                  "display": "urn:uuid:d2d0ede6-9555-41c7-9e75-914ce54c36f4"
+              },
+              "policy": [
+                  {
+                      "uri": "https://mysejahtera.moh.gov.my/en/about-mysejahtera/privacy-policy"
+                  }
+              ],
+              "provision": {
+                  "type": "permit",
+                  "period": {
+                      "end": "2024-08-17T07:12:55+10:00"
+                  },
+                  "purpose": [
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+                          "code": "TREAT"
+                      },
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+                          "code": "HPAYMT"
+                      },
+                      {
+                          "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+                          "code": "HOPERAT"
+                      }
+                  ]
+              }
+          },
+          "request" : {
+            "method" : "PUT",
+            "url" : "Consent/804add98-c0fb-4551-b903-2ba720a6934b"
+          }
+      }
+  ]
+}
